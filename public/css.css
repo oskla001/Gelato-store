@@ -1,0 +1,785 @@
+@font-face {
+    font-family: geometric;
+    src: url(fonts/Geometric\ 706\ Bold\ Condensed\ BT.ttf);
+}
+@font-face {
+    font-family: Brush MT;
+    src: url(fonts/BRUSHSCI.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-Light.ttf);
+}
+
+
+body{
+    background-color: #FF6C6C;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+  /*
+    |||                      |||
+    ||| Everything in header |||
+    vvv                      vvv
+    
+    */
+  
+#header {
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    background-color: #FF6C6C;
+}
+#header_Menu {
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+#navbar {
+    display: flex;
+    font-family: geometric;
+    width: 15vw;
+    justify-content: space-between;
+}
+
+#Gelato{
+    font-family: Brush MT;
+    margin-left: 7.8%;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+
+
+#icons{
+    display: flex;
+    font-family: geometric;
+    width: 22vw;
+    justify-content: space-between;
+    align-items: center;
+}
+#login{
+    height: 3.2vw;
+
+}
+#Cart{
+    height: 3.2vw;
+}
+
+
+
+  /*
+    |||                         |||
+    ||| Everything in HOVEDSODE |||
+    vvv                         vvv
+    
+    */
+  
+
+#hovedside{
+    height: 50vw;
+    background-image: url("Bilder/ice-cream-11489.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#image_holder_hoved{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+}
+#tekst_premium{
+    font-size: 3.9vw;
+    color: #fff;
+    margin-top: 15vw;
+    margin-bottom: 0%;
+    font-family: geometric;
+    text-align: center;
+}
+#tekst_ice_cream{
+    font-size: 18vw;
+    margin: 0%;
+    color: #fff;
+    font-family: geometric;
+}
+#tekst_order_online{
+    margin: 0%;
+    color: #fff;
+    font-family: geometric;
+    text-align: center;
+    border: solid 1px white;
+    width: 25%;
+    font-size: 3vw;
+}
+
+
+
+  /*
+    |||                            |||
+    ||| Everything in OUR FLAVOURS |||
+    vvv                            vvv
+    
+    */
+  
+
+#OUR_FLAVOURS{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vw;
+}
+
+#bilde_ourflavor{
+    width: 800px; /* width of container */
+    height: 600px; /* height of container */
+    object-fit: cover;
+    margin: 0%;
+}
+
+#OURFLAVORS_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: geometric;
+    background-color: #fff;
+    height: 39.05vw;
+    width: 50vw;
+}
+
+#flavours{
+    font-family: geometric;
+    font-size: 3vw;
+    margin: 0%;
+}
+#fresh_n{
+    font-family:  Brush MT;
+    font-size: 2vw;
+    font-weight: 100;
+}
+#flavour_text{
+    font-family: geometric;
+    font-size: 2vw;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+
+
+
+  /*
+    |||                                     |||
+    ||| Everything in sTRAWBERRY CHEESECAKE |||
+    vvv                                     vvv
+    
+    */
+
+
+#sTRAWBERRY_CHEESECAKE_DIV{
+    height: 55vw;
+    background-image: url("Bilder/strawberry\ cheesecake.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    background-size: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #98FFFC;
+    margin-top: -1vw;
+}    
+  
+
+#enjoy_text{
+    font-size: 5vw;
+    font-family: geometric;
+    margin-top: 1vw;
+    color: #fff;
+}
+
+#cheesecake_text{
+    font-size: 8vw;
+    font-family: geometric;
+    margin-top: 19vw;
+    margin-bottom: 0%;
+    color: #fff;
+}
+
+
+  /*
+    |||                         |||
+    ||| Everything in OUR PLACE |||
+    vvv                         vvv
+    
+    */
+
+
+#our_place{
+    display: flex;
+    flex-direction: row;
+}
+#bilde_ourplace{
+    width: 800px; /* width of container */
+    height: 600px; /* height of container */
+    object-fit: cover;
+    margin: 0%;
+}
+
+
+
+  /*
+    |||                              |||
+    ||| Everything in MINT CHOCOLATE |||
+    vvv                              vvv
+    
+    */
+
+    #MINT_CHOCOLATE_DIV{
+        height: 55vw;
+        background-image: url("Bilder/mint_choco.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position-x: 50%;
+        background-position-y: 70%;
+        background-size: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #9DFFD8;
+        margin-top: -1vw;
+    }    
+      
+    
+    #new_flavour_text{
+        font-size: 5vw;
+        font-family: geometric;
+        margin-bottom: 6vw;
+        margin-top: 0%;
+        color: #000;
+    }
+    
+    #mint_choco_text{
+        font-size: 10vw;
+        font-family: geometric;
+        margin-top: 15vw;
+        margin-bottom: 0%;
+        color: #000;
+    }
+
+
+
+
+
+     /*
+    |||                      |||
+    ||| Everything in FOOTER |||
+    vvv                      vvv
+    
+    */
+
+    #fotter{
+        background-color: #fff;
+        height: 30vw;
+        margin-top: -1.4vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #Logo_f{
+        font-size: 3vw;
+        font-family: Brush MT;
+        font-weight: 100;
+        color: #000;
+    }
+
+    .footerLinks{
+        font-family: geometric;
+        margin-right: 5vw;
+    }
+    .fMainLinks{
+        font-family: geometric;
+    }
+    .footer{
+        margin-top: 5.2vw;
+    }
+
+    #Main_footer{
+        margin-bottom: 13vw;
+    }
+    #fMainLinks{
+        font-family: Brush MT;
+        font-size: 1.5vw;
+        font-weight: 100;
+        color: gray;
+    }
+
+
+
+
+
+
+
+
+         /*
+    |||                         |||
+    ||| Everything in MENU.HTML |||
+    vvv                         vvv
+    
+    */
+
+
+
+         /*
+    |||                                |||
+    ||| Everything in ALL_FLAVOURS_DIV |||
+    vvv                                vvv
+    
+    */
+
+
+
+    #ALL_Flavours_DIV{
+        width: 100%;
+        height: 17vw;
+        background-color: #FFFFB7;
+    }
+
+
+    #tekst_allFlavours{
+        display: flex;
+        flex-direction: column;
+    }
+    #Main_txt_Allflavours{
+        margin: 0%;
+        justify-content: center;
+        display: flex;
+        font-family: geometric;
+        margin-top: 3vw;
+        font-size: 3.5vw;
+    }
+    #txt_Allflavours_1{
+        margin: 0%;
+        justify-content: center;
+        display: flex; 
+        font-family: geometric;
+        margin-top: 1.5vw;
+        font-size: 1.5vw;
+    }
+    #txt_Allflavours_2{
+        margin: 0%;
+        justify-content: center;
+        display: flex; 
+        font-family: geometric;
+        font-size: 1.5vw;
+    }
+
+
+
+             /*
+    |||                        |||
+    ||| Everything in MENU_div |||
+    vvv                        vvv
+    
+    */
+
+
+    #MENu_DIV{
+        width: 100%;
+        height: 78vw;
+        background-color: white;
+    }
+
+
+
+    .bilde_iskrem_mnu{
+        width: 22vw;
+        height: 22vw;
+    }
+    #column1{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 3vw;
+    }
+    #boks_DIV_{
+        width: 22vw;
+        height: 35vw;
+    }
+
+    .navn_iskrem{
+        font-family: geometric;
+        justify-content: center;
+        display: flex;
+    }
+    .infotekst_1{
+        font-family: geometric;
+        justify-content: center;
+        display: flex;
+        font-size: 1vw;
+    }
+    .infotekst_2{
+        font-family: geometric;
+        justify-content: center;
+        display: flex;
+        font-size: 1vw;
+    }
+    .Pris_iskrem{
+        font-family: geometric;
+        justify-content: center;
+        display: flex;
+        font-size: 1.7vw;
+    }
+
+
+                 /*
+    |||                            |||
+    ||| Everything in Product.html |||
+    vvv                            vvv
+    
+    */
+
+    #product_DIV{
+        width: 100%;
+        height:50vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #iskrem_produkt_Bilde{
+        height: 50vw;
+        margin-left: 0.7vw;
+    }
+
+    #informasjon_DIV{
+        margin-left: 2.5vw;
+    }
+
+    #navn_på_produkt{
+        font-family: geometric;
+        font-size: 3vw;
+    }
+    #tekst_info_produkt_DIV{
+        width: 80%;
+        font-family: Oswald;
+        font-size: 0.80vw;
+        color: grey;
+    } 
+    #pris_product{
+        font-family: geometric;
+    }
+    #knapp_produktSide{
+        width: 45vw;
+        height: 3.5vw;
+        font-family: geometric;
+        font-size: 2vw;
+        color: white;
+        background-color: #FF7700;
+        border: solid 0px;
+    }
+    #tekstomprodukt{
+        font-family: Oswald;
+        color: grey;
+        font-size: 0.9vw;
+    }
+
+
+
+
+
+
+
+
+    
+                 /*
+    |||                                |||
+    ||| Everything in shoppingbag.html |||
+    vvv                                vvv
+    
+    */
+
+    #DIV_SHOPPINGBAG{
+        width: 100%;
+        height: 40vw;
+        background-color: white;
+        padding-left: 3vw ;
+        display: flex;
+        justify-content:flex-start ;
+    }
+
+    #product_view_DIV{
+        width: 55vw;
+        height: 20vw;
+    }
+
+    #katagorier_DIV{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: geometric;
+        font-size: 0.8vw;
+    }
+    #katagorier{
+        display: flex;
+        justify-content: space-between;
+        width: 30vw;
+    }
+
+
+
+    #shoppingbag{
+        width: 55vw;
+        height: 5vw;
+        display: flex;
+    }
+    #IMG_shoppingbag{
+        height: 5vw;
+        margin-right: 1vw;
+    }
+    #shoppingbag_nvn_produkt{
+        margin-left: 0.5vw;
+        font-family: geometric;
+        font-size: 1.5vw;
+    }
+    #quantity_button{
+        margin-left: 14vw;
+        width: 1.5vw;
+        height: 50%;
+        margin-top: 1.2vw;
+    }
+    #Pris_shopping{
+        font-family: geometric;
+        font-size: 1.7vw;
+        padding-top: 0.4vw;
+        padding-left: 10vw;
+    }
+    #delete_icon{
+        padding-left: 9.5vw;
+        height: 2.5vw;
+        padding-top: 1.2vw;
+    }
+
+      
+                 /*
+    |||                            |||
+    ||| Everything in CHECKOUT div |||
+    vvv                            vvv
+    
+    */
+    #CHECKout_DIV{
+        width: 28vw;
+        height: 28vw;
+        background-color: #E2E2E2;
+        margin-left: 7vw;
+        margin-top: 1.3vw;
+    }
+    #ORDER_SUMMARY_TXT{
+        font-family: geometric;
+        margin-left: 3vw;
+    }
+    #subtotal_DIV{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: geometric;
+        font-size: 1vw;
+    }
+    #SUBTOTAL_TXT{
+        margin-right: 7vw;
+    }
+    #PRIS_SUBTOTAL{
+        margin-left: 1vw;
+    }
+    #shipping_DIV{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: geometric;
+        font-size: 1vw;
+    }
+    #SHIPPING_TXT{
+        margin-right: 9vw;
+    }
+    #SHIPPING_PRIS{
+        margin-left: 1vw;
+    }
+    #Totalcost_DIV{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: geometric;
+        font-size: 1vw;
+    }
+    #TOTAL_COST_TXT{
+        margin-right: 3vw;
+    }
+    #TOTALCOST_PRIS{ 
+        margin-left: 4vw;
+    }
+    #Check_out{
+        width: 22vw;
+        height: 3vw;
+        background-color: white;
+        border: 0;
+        margin-left: 3.5vw;
+    }
+    .checkout_linje{
+        width: 22vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+         
+                 /*
+    |||                            |||
+    ||| Everything in CHECKOUT div |||
+    vvv                            vvv
+    
+    */
+    #bilde_iskremBil{
+        height: 50vw;
+        margin-left: 5vw;
+    }
+    #div_around_login{
+        width: 100%;
+        height: 50vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    #login_DIV{
+        width: 30vw;
+        height: 33vw;
+        padding-right: 10vw;
+        margin-top: 8vw;
+    }
+    #tekst_welcomeback{
+        font-family: geometric;
+        font-size: 3.5vw;
+    }
+    #tekst_to_Login{
+        font-family: geometric;
+        font-size: 1.8vw;
+        color: #7B7373;
+    }
+    #input_login_1{
+        width: 23vw;
+        height: 4vw;
+        border-radius:2vw;
+        font-family: geometric;
+        font-size: 1.5vw;
+    }
+    #input_login_2{
+        width: 23vw;
+        height: 4vw;
+        margin-top: 1.5vw;
+        border-radius: 2vw;
+        font-family: geometric;
+        font-size: 1.5vw;
+    }
+
+    #login_createaccount_DIV{
+        display: flex;
+        margin-top: 1.5vw
+    }
+    #Login_button{
+        width: 7vw;
+        height: 4vw;
+        border-radius: 2vw;
+        font-family: geometric;
+        font-size: 1.2vw;
+    }
+    #Signup_button{
+        width: 7vw;
+        height: 4vw;
+        margin-left: 3vw;
+        border-radius: 2vw;
+        font-family: geometric;
+        font-size: 1.2vw;
+    }
+
+
+                     /*
+    |||                            |||
+    ||| Everything in SIGNUP div |||
+    vvv                            vvv
+    
+    */
+
+    #signup_DIV{
+        width: 100%;
+        height: 40vw;
+        background-color: white;
+    }
+    #signup{
+        width: 30%;
+        height: 40vw;
+        margin-left: 35vw;
+    }
+    #CreateAccount_txt{
+        margin-left: 5.5vw;
+        font-family: geometric;
+        font-size: 2.7vw;
+        margin-top: 0%;
+        padding-top: 3vw;
+    }
+    #input_Signup_1{
+        width: 25vw;
+        height: 4vw;
+        border-radius:2vw;
+        font-family: geometric;
+        font-size: 1.5vw;
+        margin-left: 2vw;
+        margin-bottom: 2vw;
+        margin-top: 0%;
+        border: #7B7373 solid 1px;
+    }
+    #input_Signup_2 {
+        width: 25vw;
+        height: 4vw;
+        border-radius:2vw;
+        font-family: geometric;
+        font-size: 1.5vw;
+        margin-left: 2vw;
+        margin-bottom: 1vw;
+        border: #7B7373 solid 1px;
+    }
+    #CrateAccount_Button{
+        width: 7vw;
+        height: 4vw;
+        border-radius: 2vw;
+        font-family: geometric;
+        font-size: 1.2vw;
+        margin-left: 11vw;
+        border: #7B7373 solid 1px;
+    }
+    #goback_loginTxt{
+        font-family: geometric;
+        font-size: 1.5vw;
+        margin-left: 10.5vw;
+        color: grey;
+    }
