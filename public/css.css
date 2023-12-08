@@ -44,6 +44,14 @@ body{
     font-family: geometric;
     width: 15vw;
     justify-content: space-between;
+    color: #000;
+    text-decoration: none;
+}
+.Navbar_button{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 #Gelato{
